@@ -15,7 +15,9 @@ LOCAL_C_INCLUDES  :=  \
 	${LOCAL_PATH}/src \
 	${LOCAL_PATH}/src/modules \
 	${LOCAL_PATH}/src/libraries/ \
+	${LOCAL_PATH}/src/libraries/luasocket \
 	${LOCAL_PATH}/src/libraries/enet/libenet/include \
+	${LOCAL_PATH}/../openssl/$(TARGET_ARCH_ABI)/include \
 	${LOCAL_PATH}/../SDL2-2.0.5/include \
 	${LOCAL_PATH}/../jasper-1.900.1/src/libjasper/include \
 	${LOCAL_PATH}/../libmng-1.0.10/ \
@@ -102,7 +104,7 @@ LOCAL_CXXFLAGS := -std=c++0x
 
 LOCAL_SHARED_LIBRARIES := libopenal libmpg123 
 
-LOCAL_STATIC_LIBRARIES := libphysfs libvorbis libogg libtheora libmodplug libfreetype libluajit SDL2_static
+LOCAL_STATIC_LIBRARIES := libphysfs libvorbis libogg libtheora libmodplug libfreetype libluajit SDL2_static libssl libcrypto
 
 # $(info liblove: include dirs $(LOCAL_C_INCLUDES))
 # $(info liblove: src files $(LOCAL_SRC_FILES))
