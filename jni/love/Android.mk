@@ -98,6 +98,8 @@ LOCAL_SRC_FILES := \
   $(wildcard ${LOCAL_PATH}/src/libraries/Wuff/*.c) \
   $(wildcard ${LOCAL_PATH}/src/libraries/lodepng/*.cpp) \
   $(wildcard ${LOCAL_PATH}/src/libraries/lz4/*.c) \
+  $(wildcard ${LOCAL_PATH}/src/libraries/luasec/*.cpp) \
+  $(wildcard ${LOCAL_PATH}/src/libraries/luasec/*.c) \
   ))
 
 LOCAL_CXXFLAGS := -std=c++0x
