@@ -15,7 +15,7 @@ android {
         minSdkVersion 10
         externalNativeBuild {
             ndkBuild {
-                arguments "-j4"
+                arguments "-j3"
             }
         }
         ndk {
