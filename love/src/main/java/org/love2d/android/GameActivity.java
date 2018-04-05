@@ -139,10 +139,10 @@ public class GameActivity extends SDLActivity {
                 else
                     gamePath = "game.love";
             } else {
-                // If no game.love was found fall back to the game in <external storage>/lovegame
+                // If no game.love was found fall back to the game in <external storage>/likolove
                 File ext = Environment.getExternalStorageDirectory();
-                if ((new File(ext, "/lovegame/main.lua")).exists()) {
-                    gamePath = ext.getPath() + "/lovegame/";
+                if ((new File(ext, "/likolove/main.lua")).exists()) {
+                    gamePath = ext.getPath() + "/likolove/";
                 }
             }
         }
