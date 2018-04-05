@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "26.0.2"
     defaultConfig {
-        applicationId "org.love2d.android"
+        applicationId "abc.ramilego4game.likolove"
         versionCode 6
         versionName "11.0-LIKO-LOVE"
         minSdkVersion 10
