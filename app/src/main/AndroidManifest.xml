@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="org.love2d.android.executable"
+<manifest package="abc.ramilego4game.likolove"
       android:installLocation="auto" xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -13,15 +13,15 @@
   <application
       android:allowBackup="true"
       android:icon="@drawable/love"
-      android:label="LÖVE for Android"
+      android:label="LIKO-LÖVE 0.10.2"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
       <service android:name="org.love2d.android.DownloadService" />
       <activity
-        android:name="org.love2d.android.GameActivity"
-        android:configChanges="orientation|screenSize"
-        android:label="LÖVE for Android"
+        android:name="abc.ramilego4game.likolove.LikoActivity"
+        android:configChanges="orientation|screenSize|keyboard|keyboardHidden|navigation"
+        android:label="LIKO-LÖVE"
         android:launchMode="singleTop"
-        android:screenOrientation="landscape" >
+        android:screenOrientation="fullUser" >
         <intent-filter>
           <action android:name="android.intent.action.MAIN" />
           <category android:name="android.intent.category.LAUNCHER" />
