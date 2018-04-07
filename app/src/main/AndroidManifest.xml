@@ -13,7 +13,7 @@
   <application
       android:allowBackup="true"
       android:icon="@drawable/love"
-      android:label="LIKO-LÖVE 0.10.2"
+      android:label="LIKO-LÖVE 11.0"
       android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
       <service android:name="org.love2d.android.DownloadService" />
       <activity
