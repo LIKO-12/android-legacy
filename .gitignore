@@ -9,6 +9,8 @@ local.properties
 .*.swp
 .*~
 *~
+*.so
+*.a
 *.o
 *.orig
 *.rej

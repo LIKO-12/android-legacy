@@ -1,4 +1,3 @@
-!LuaJIT-2.1/android/armeabi/libluajit.a
 !LuaJIT-2.1/android/armeabi-v7a/libluajit.a
 !LuaJIT-2.1/android/x86/libluajit.a
 
@@ -16,3 +15,11 @@ LuaJIT-2.1/src/lj_vm.s
 LuaJIT-2.1/src/luajit
 
 love/src/Makefile.am
+
+!libcurl/armeabi-v7a/libcurl.so
+!libcurl/x86/libcurl.so
+
+!openssl/armeabi-v7a/lib/libcrypto.a
+!openssl/armeabi-v7a/lib/libssl.a
+!openssl/x86/lib/libcrypto.a
+!openssl/x86/lib/libssl.a
