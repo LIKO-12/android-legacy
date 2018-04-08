@@ -111,7 +111,7 @@ LOCAL_SRC_FILES := \
 
 LOCAL_CXXFLAGS := -std=c++0x
 
-LOCAL_SHARED_LIBRARIES := libopenal libmpg123 
+LOCAL_SHARED_LIBRARIES := libopenal libmpg123 libcurl 
 
 LOCAL_STATIC_LIBRARIES := libvorbis libogg libtheora libmodplug libfreetype libluajit SDL2_static
 
