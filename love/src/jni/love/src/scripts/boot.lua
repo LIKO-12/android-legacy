@@ -358,7 +358,7 @@ function love.boot()
 	identity = identity:gsub("^([%.]+)", "") -- strip leading "."'s
 	identity = identity:gsub("%.([^%.]+)$", "") -- strip extension
 	identity = identity:gsub("%.", "_") -- replace remaining "."'s with "_"
-	identity = #identity > 0 and identity or "lovegame"
+	identity = #identity > 0 and identity or "likolove"
 
 	-- When conf.lua is initially loaded, the main source should be checked
 	-- before the save directory (the identity should be appended.)
