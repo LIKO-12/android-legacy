@@ -160,6 +160,7 @@
 
 #	define LOVE_ENABLE_ENET
 #	define LOVE_ENABLE_LUASOCKET
+#	define LOVE_ENABLE_LUASEC
 #	define LOVE_ENABLE_LUA53
 #endif
 
