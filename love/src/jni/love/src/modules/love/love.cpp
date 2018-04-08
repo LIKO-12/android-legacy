@@ -63,9 +63,6 @@ extern "C"
 #ifdef LOVE_ENABLE_LUA53
 #	include "libraries/lua53/lutf8lib.h"
 #endif
-#ifdef LOVE_ENABLE_LUASEC
-# include "libraries/luasec/luasec.h"
-#endif
 
 // For love::graphics::setGammaCorrect.
 #ifdef LOVE_ENABLE_GRAPHICS
@@ -429,9 +426,6 @@ int luaopen_love(lua_State *L)
 
 #ifdef LOVE_ENABLE_LUASOCKET
 	love::luasocket::__open(L);
-#endif
-#ifdef LOVE_ENABLE_LUASEC
-  luasec::__open(L);
 #endif
 #ifdef LOVE_ENABLE_ENET
 	love::luax_preload(L, luaopen_enet, "enet");
