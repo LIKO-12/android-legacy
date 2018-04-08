@@ -7,7 +7,7 @@ android {
         applicationId "abc.ramilego4game.likolove"
         versionCode 11
         versionName "11.0-LIKO-LOVE"
-        minSdkVersion 10
+        minSdkVersion 14
         targetSdkVersion 25
     }
     buildTypes {
