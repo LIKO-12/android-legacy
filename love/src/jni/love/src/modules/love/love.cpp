@@ -57,7 +57,7 @@ extern "C"
 #ifdef LOVE_ENABLE_LUASOCKET
 #	include "libraries/luasocket/luasocket.h"
 #endif
-#ifdef LOVE_ENABLE_LUASec
+#ifdef LOVE_ENABLE_LUASEC
 #	include "libraries/luasec/luasec.h"
 #endif
 #ifdef LOVE_ENABLE_ENET
