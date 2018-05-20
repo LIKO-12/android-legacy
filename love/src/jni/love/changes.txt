@@ -1,5 +1,19 @@
+LOVE 11.1 [Mysterious Mysteries]
+--------------------------------
+
+Released: 2018-04-15
+
+* Fixed love.graphics.setCanvas failing randomly.
+* Fixed love.graphics.clear(colortable) when no Canvas is active.
+* Fixed stencil and depth support on older phones.
+* Fixed love.event.quit causing crashes and other unexpected behaviour if a Canvas is active.
+* Fixed Fixture:getShape crashing when returning a ChainShape.
+* Fixed love.joystick.loadJoystickMappings outputting a deprecation warning about love.filesystem.isFile.
+* Fixed Source:queue to show the correct argument name in the error message when an invalid data parameter is given.
+* Fixed t.console=true causing an error on Windows if lovec.exe is used.
+
 LOVE 11.0 [Mysterious Mysteries]
---------------
+--------------------------------
 
 Released: 2018-04-01
 
@@ -101,7 +115,7 @@ Released: 2018-04-01
   * Removed Shader:getExternVariable, use Shader:hasUniform instead.
   * Removed love.graphics.newScreenshot, use love.graphics.captureScreenshot instead.
   * Removed deprecated enet function host:socket_get_address.
-  * Removed functions deprecated in LÖVE 0.10.2:
+  * Removed functions deprecated in LÃ–VE 0.10.2:
     * Removed Shader:sendInt, Shader:sendBoolean, Shader:sentFloat, Shader:sendMatrix, and Shader:sendTexture (use Shader:send instead).
     * Removed love.window.isCreated (use love.window.isOpen instead).
 
@@ -267,7 +281,7 @@ Released: 2015-12-22
   * Added the flag t.gammacorrect to love.conf (replaces t.window.srgb.) Enabling it globally enables gamma-correct rendering, when supported.
   * Added video playback support for Ogg Theora videos, via love.graphics.newVideo and Video objects.
   * Added love.video module. It is not used for displaying videos on-screen, only decoding them.
-  * Added love.touch module. Note that it has important differences from the touch implementation in the LÖVE 0.9 Android and iOS ports.
+  * Added love.touch module. Note that it has important differences from the touch implementation in the LÃ–VE 0.9 Android and iOS ports.
   * Added love.touchpressed, love.touchreleased, and love.touchmoved.
   * Added love.system.vibrate.
   * Added love.filesystem.setRequirePath and love.filesystem.getRequirePath.
@@ -564,7 +578,7 @@ LOVE 0.9.1 [Baby Inspector]
   * Fixed SoundData objects being initialized with garbage values.
   * Fixed 8-bit SoundData samples when used in love.audio Sources.
 
-  * Updated the error text for love.filesystem’s module searchers when require fails.
+  * Updated the error text for love.filesystemâ€™s module searchers when require fails.
   * Updated the love.filesystem module searchers to be tried after package.preload instead of before.
   * Updated love.graphics.newParticleSystem, newSpriteBatch, and newMesh to accept Canvases.
   * Updated Canvas drawing code, texture coordinates are no longer flipped vertically.
@@ -984,11 +998,11 @@ LOVE 0.7.0 [Game Slave]
   * Fixed a bug in the loader (for require).
   * Fixed ParticleSystem::setSprite not retaining the new image.
   * Fixed setMode removing images settings (wrapping, filters).
-  * Fixed shape:getBody, it's now exposed for LÖVE usage.
+  * Fixed shape:getBody, it's now exposed for LÃ–VE usage.
   * Fixed DistanceJoint:getType() returning "circle" - it now returns "distance".
   * Fixed SpriteBatches being unaffected by setColor
   * Fixed the audio bug.
-  * Fixed invalid FSAA values crashing LÖVE.
+  * Fixed invalid FSAA values crashing LÃ–VE.
   * Fixed a bunch of compiler warnings.
   * Fixed OS X not properly using UTIs for .love files.
   * Fixed the modplug decoder not properly handeling files that fail to load.
