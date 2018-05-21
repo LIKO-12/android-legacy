@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "abc.ramilego4game.likolove"
         versionCode 12
-        versionName "11.0-LIKO-LOVE"
+        versionName "11.1-LIKO-LOVE"
         minSdkVersion 14
         targetSdkVersion 25
     }
